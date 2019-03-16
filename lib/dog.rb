@@ -10,8 +10,9 @@ def self.all
   self.each {|x| puts "#{x}"}
 end
 
-  def name
-
+  def initialize(name)
+    @name = name
+    @@all << name
   end
 
 
