@@ -7,7 +7,7 @@ def self.clear_all
 end
 
 def self.all
-  self.each {|x| puts "#{x}"}
+  @@all.each {|x| puts "#{x}"}
 end
 
   def initialize(name)
