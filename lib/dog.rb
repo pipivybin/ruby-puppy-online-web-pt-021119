@@ -1,11 +1,9 @@
 class Dog
 
 @@all = []
-@@name = []
 
 def self.clear_all
   @@all = []
-  @@name = []
 end
 
 def self.all
